@@ -1,11 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-    jdk "1.8"
-    gradle "7.1.1"
-    }
-
     stages {
         stage('Run tests') {
             steps {
